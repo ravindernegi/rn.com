@@ -1,0 +1,323 @@
+/*   
+ * Author: Ravinder Singh
+*/
+/* ======= Base ======= */
+
+:root {
+  --fz-xxs: 12px;
+  --fz-xs: 13px;
+  --fz-sm: 14px;
+  --fz-md: 16px;
+  --fz-lg: 18px;
+  --fz-xl: 20px;
+  --fz-xxl: 22px;
+  --fz-heading: 32px;
+  --light-navy: #112240;
+  --lightest-slate: #ccd6f6;
+  --green: #64ffda;
+  --lightest-navy: #233554;
+  --navy: #0a192f;
+  --slate: #8892b0;
+  --forebg: #24354e;
+}
+body {
+  font-family: 'Lato', arial, sans-serif;
+  color: var(--lightest-slate);
+  background: var(--navy);
+  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  color: var(--green);
+}
+.desc {
+  font-size: 18px;
+  color: var(--lightest-slate);
+}
+a {
+  color: var(--green);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: var(--green);
+}
+a:focus {
+  text-decoration: none;
+}
+.btn,
+a.btn {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  font-family: 'Montserrat', arial, sans-serif;
+  padding: 8px 16px;
+  font-weight: bold;
+}
+.btn .fa,
+a.btn .fa {
+  margin-right: 5px;
+}
+.btn:focus,
+a.btn:focus {
+  color: var(--green);
+}
+li {
+  list-style: none;
+}
+.block-bg {
+  background: #24354e;
+  color: var(--lightest-slate);
+}
+/* ======= Header ======= */
+.header {
+  padding: 30px 0 0 0;
+}
+.header .btn {
+  margin-top: 60px;
+  font-weight: bold;
+}
+.header .profile-image {
+  margin-right: 30px;
+  border: 5px solid #fff;
+}
+
+.profile-content .name {
+  font-size: 28px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  text-align: center;
+  font-weight: normal;
+}
+.profile-content .desc {
+  font-family: 'Lato', arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.profile-content .social a {
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  color: #fff;
+  text-align: center;
+  background: var(--forebg);
+}
+.profile-content .social a:hover {
+  color: var(--navy);
+  background: var(--green);
+}
+.profile-content .social a .fa {
+  font-size: 20px;
+  padding-top: 8px;
+}
+.green-color {
+  color: var(--green);
+}
+#services ul li {
+  list-style: inherit;
+}
+#tools ul li .fa,
+#books ul li .fa,
+#interests ul li .fa,
+#investment ul li .fa {
+  margin-right: 8px;
+}
+/* ======= Sections======= */
+.sections-wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.section {
+  margin-bottom: 30px;
+}
+.section .section-inner {
+  padding: 30px 0;
+}
+.section .heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: var(--green);
+  font-size: 24px;
+}
+.section-footer .section .heading {
+  color: #fff;
+}
+.section .content .more-link .fa {
+  margin-right: 5px;
+  font-size: 14px;
+}
+/* Info Section */
+.info .fa {
+  margin-right: 15px;
+  font-size: 20px;
+}
+.languages a {
+  color: var(--lightest-slate);
+}
+.languages .fa.fa-envelope-o,
+.info .fa.fa-map-marker {
+  margin-right: 8px;
+  color: var(--green);
+  font-size: 20px;
+}
+.info .fa.fa-envelope-o {
+  font-size: 14px;
+}
+.social.list-inline {
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 0;
+}
+.social.list-inline li {
+  display: inline;
+  padding-right: 1%;
+  padding-left: 1%;
+  margin-bottom: 10px;
+}
+.info a {
+  color: var(--lightest-slate);
+}
+.info a:hover {
+  color: var(--green);
+}
+.info ul {
+  margin-bottom: 0;
+}
+.info li {
+  display: inline;
+  margin-bottom: 15px;
+}
+.info li:last-child {
+  margin-bottom: 0;
+}
+/* List section */
+.list ul li {
+  margin-bottom: 10px;
+}
+.list ul li .fa {
+  margin-right: 5px;
+}
+.list ul li a {
+  color: #778492;
+}
+.list ul li a:hover {
+  color: #49515a;
+}
+/* ======= Footer ======= */
+
+.bottom_border {
+  border-bottom: 1px solid #e7e7e7;
+}
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+}
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+/* Ex-Large devices (large desktops, 1200px and up) */
+
+.numbered-heading {
+  color: var(--green);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 0px 40px;
+  width: 100%;
+  font-size: clamp(26px, 5vw, var(--fz-heading));
+  white-space: nowrap;
+}
+.numbered-heading::after {
+  content: '';
+  display: block;
+  position: relative;
+  top: -5px;
+  width: 300px;
+  height: 1px;
+  margin-left: 20px;
+  background-color: var(--lightest-navy);
+}
+/*
+.numbered-heading::before {
+  position: relative;
+  bottom: 4px;
+  counter-increment: section 1;
+  content: '0' counter(section) '.';
+  margin-right: 10px;
+  color: var(--green);
+  font-family: var(--font-mono);
+  font-size: clamp(var(--fz-md), 3vw, var(--fz-xl));
+  font-weight: 400;
+}
+ */
+
+#channels .btn {
+  background-color: transparent;
+  border: 1px solid var(--green);
+  border-radius: var(--border-radius);
+  padding: 1.25rem 1.75rem;
+  font-size: var(--fz-sm);
+  font-family: var(--font-mono);
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: var(--transition);
+  margin-top: 50px;
+}
+ul li {
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+ul li label {
+  background: var(--green);
+  color: var(--navy);
+  padding: 2px 10px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.home .nav-item .nav-link {
+  text-decoration: none;
+  color: #0b192e;
+}
+.home .nav-item .nav-link:hover {
+  text-decoration: underline;
+  color: #0b192e;
+}
+.home .nav-item.active .nav-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.home ul li {
+  background: var(--green);
+  margin-left: 10px;
+  border-radius: 4px;
+}
+.home ul li.active {
+  background: none;
+  margin-left: 10px;
+  border-radius: 4px;
+}
