@@ -58,7 +58,7 @@
         <!-- ******HEADER****** -->
         <div class="container">
         <div class="row justify-content-md-center">
-<div class="col-lg-8 home">
+<div class="col-lg-12 home">
         <ul class="nav justify-content-end">
             <li class="nav-item active">
                 <a class="nav-link " aria-current="page">Home</a>
@@ -74,7 +74,7 @@
             <div class="container">
 
                 <div class="row justify-content-md-center">
-                    <div class="col-lg-8">
+                    <div class="col-lg-10">
                         <div class="row">
                             <div class="col-lg-8 pt-5">
                                 <p>Hi, Myself</p>
@@ -110,7 +110,7 @@
                                 class="fa fa-book"></i></a>
                     </li>
 
-                    <li class="wow rollIn animated"><a href="#channels" title="My Channels"><i
+                    <li class="wow rollIn animated"><a href="#videos" title="My Videos"><i
                                 class="fa fa-youtube-play"></i></a>
                     </li>
                     <li class="wow rollIn animated"><a href="#contact" title="Contact Me"><i
@@ -126,7 +126,7 @@
         <div class="container-fluid  pb-5" id="skills">
             <div class="container">
                 <section class=" wow fadeIn animated row justify-content-md-center pt5">
-                    <div class="col-lg-9 ">
+                    <div class="col-lg-12 ">
                         <h2 class="numbered-heading">My Web Skills</h2>
                         <div class="block-bg p-5">
                             <ul>
@@ -159,7 +159,7 @@
         <div class="container-fluid pb-5 " id="tools">
             <div class="container ">
                 <section class=" wow fadeIn animated row justify-content-md-center">
-                    <div class="col-lg-9">
+                    <div class="col-lg-12">
                         <h2 class="numbered-heading">My Gadgets</h2>
                         <div class="block-bg p-5">
                             <p>I always use below gadgets for web development and content creation, as these tools and
@@ -218,7 +218,7 @@
 
                 <section class="  wow fadeIn animated row justify-content-md-center ">
 
-                    <div class="col-lg-9 ">
+                    <div class="col-lg-12">
                         <h2 class="numbered-heading">About Me</h2>
                         <div class="content block-bg p-5">
                             <p>
@@ -241,7 +241,7 @@
                             and
                             blogging.<br /><br />
 
-                            please check out my youtube <a href="#channels">channels</a> and blog below. </p>
+                            please check out my youtube <a href="#videos">videos</a> and blog below. </p>
 
                         </div>
                         <!--//content-->
@@ -255,7 +255,7 @@
         <div class="container-fluid pb-5 " id="services">
             <div class="container ">
                 <section class="wow fadeIn animated row justify-content-md-center ">
-                    <div class=" col-lg-9">
+                    <div class=" col-lg-12">
                         <h2 class="numbered-heading">My Services</h2>
                         <div class="row justify-content-md-center">
                             <div class="col-lg-6 block-bg p-5">
@@ -285,14 +285,47 @@
             </div>
 
         </div>
+        
+        <div class="container-fluid pb-5 text-center" id="videos">
+            <div class="container ">
+                <section class="wow fadeIn animated row justify-content-md-center ">
+                    <div class=" col-lg-12">
+                        <h2 class="numbered-heading">My Youtube Videos</h2>
+                        <div class="row justify-content-md-center">
+                            <div class="col-lg-6 mb-4">
+                                <a href="https://www.youtube.com/embed/PtViS07Gvuw" target="_blank"><img src="https://i3.ytimg.com/vi/PtViS07Gvuw/maxresdefault.jpg" class="img-fluid"/></a> 
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                                <a href="https://www.youtube.com/embed/9ULuKhwx3WU" target="_blank"><img src="https://i3.ytimg.com/vi/9ULuKhwx3WU/maxresdefault.jpg" class="img-fluid"/></a>
+                            </div>
+                        
+                            <div class="col-lg-6 mb-4">
+                                <a href="https://www.youtube.com/embed/e-pj8pDZJdI" target="_blank"><img src="https://i3.ytimg.com/vi/e-pj8pDZJdI/maxresdefault.jpg" class="img-fluid"/></a> 
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                                <a href="https://www.youtube.com/embed/9B6HR_T-g5o" target="_blank"><img src="https://i3.ytimg.com/vi/9B6HR_T-g5o/maxresdefault.jpg" class="img-fluid"/></a>
+                            </div>
+                       
+                            <div class="col-lg-6 mb-4">
+                                <a href="https://www.youtube.com/embed/NUiIfVXvHCw" target="_blank"><img src="https://i3.ytimg.com/vi/NUiIfVXvHCw/maxresdefault.jpg" class="img-fluid"/></a> 
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                                <a href="https://www.youtube.com/embed/JnNAqSaLOCI" target="_blank"><img src="https://i3.ytimg.com/vi/JnNAqSaLOCI/maxresdefault.jpg" class="img-fluid"/></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
 
+        </div>
+        <?php /*
         <div class="container-fluid pb-5 text-center" id="channels">
             <div class="container ">
                 <section class="wow fadeIn animated row justify-content-md-center ">
                     <div class=" col-lg-9">
                         <h2 class="numbered-heading">My Youtube Channels</h2>
                         <div class="row justify-content-md-center">
-                            <div class="col-lg-6 block-bg p-5">
+                            <div class="col-lg-12 block-bg p-5">
                                 <div class="m-5 "><a href="https://youtube.com/c/totallyhindimeinjankari"
                                         target="_blank"><img src="<?php echo get_template_directory_uri();?>/style/images/ravindernegi-thmj.png" alt="THMJ"
                                             width="150" title="Do you want to learn web development?" /></a></div>
@@ -306,32 +339,19 @@
                                     Channel</a>
                             </div>
 
-                            <div class="col-lg-6 block-bg p-5">
-                                <div class="m-5"><a href="https://www.youtube.com/channel/UCZspyTy-TRaM16wpIcetOew"
-                                        target="_blank"><img src="<?php echo get_template_directory_uri();?>/style/images/ravindernegi-codebebo.png" width="150"
-                                            alt="Codebebo" title="Get best software for your needs" /></a></div>
-                                <h5 class="card-title"><a
-                                        href="https://www.youtube.com/channel/UCZspyTy-TRaM16wpIcetOew"
-                                        target="_blank">CodeBebo</a></h5>
-                                <p class="card-text">This is a Tech channel. Here you can get
-                                    software/review/tutorials related ideas and skills.
-                                </p>
-                                <a href="https://www.youtube.com/channel/UCZspyTy-TRaM16wpIcetOew" target="_blank"
-                                    class="btn btn-primary">Go
-                                    Visit Channel</a>
-                            </div>
+                            
                         </div>
                     </div>
                 </section>
             </div>
 
         </div>
-        
+        */?>
 
         <div class="container-fluid pb-5 " id="interests">
             <div class="container">
                 <section class=" wow fadeIn animated row justify-content-md-center">
-                    <div class="col-lg-9">
+                    <div class="col-lg-12">
                         <h2 class="numbered-heading">My Interests</h2>
                         <div class="block-bg p-5">
                             <p>Whenever I got the chance, I do these things in my daily routine.</p>
@@ -364,7 +384,7 @@
         <div class="container-fluid pb-5" id="books">
             <div class="container">
                 <section class=" wow fadeIn animated row justify-content-md-center">
-                    <div class="col-lg-9">
+                    <div class="col-lg-12">
                         <h2 class="numbered-heading">My favourite Books</h2>
                         <div class="block-bg p-5">
                             <p>Following are my favourite books</p>
@@ -401,7 +421,7 @@
         <div class="container-fluid  pb-5" id="investment">
             <div class="container">
                 <section class=" wow fadeIn animated row justify-content-md-center">
-                    <div class="col-lg-9">
+                    <div class="col-lg-12">
                         <h2 class="numbered-heading">My Investment Apps</h2>
                         <div class="block-bg p-5">
                             <p>Yes, of course, I am software engineer and content creator. But I am also an Investor. We
@@ -430,34 +450,11 @@
             </div>
 
         </div>
-        <div class="container-fluid pb-5 ">
-            <div class="container  ">
-
-                <section class=" wow fadeIn animated row justify-content-md-center">
-                    <div class="col-lg-9">
-                        <div class="row justify-content-md-center">
-                            <div class="col-lg-6">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/EMvhdm1N0-Q"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                            </div>
-                            <div class="col-lg-6">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/9B6HR_T-g5o"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-
-        </div>
+        
         <div class="container-fluid pb-3 " id="contact">
             <div class="container ">
                 <section class=" wow fadeIn animated row justify-content-md-center">
-                    <div class="col-lg-9">
+                    <div class="col-lg-12">
                         <div class="row justify-content-md-center block-bg p-5">
 
                             <div class="secondary col-lg-4">
